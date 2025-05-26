@@ -1,0 +1,8 @@
+tabla = 1
+while tabla <= 10:
+    contador=1
+
+    while contador <=10:
+        print (f"{tabla} * {contador} = {tabla*contador}")
+        contador+=1 
+    tabla+=1
